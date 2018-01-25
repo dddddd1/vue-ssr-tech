@@ -1,17 +1,18 @@
 <template>
-    <div id="test">{{text}}</div>
+    <div id="test1">{{text}}</div>
+    <!-- <img src="../assets/images/1.gif" alt=""> -->
 </template>
 <script>
 export default {
   data() {
       return{
-          text: 'test'
+          text: 'a222bc'
       }
   }
 }
 </script>
 <style>
-    #test{
+    #test1{
         color: red;
     }
 </style>
