@@ -1,6 +1,7 @@
 const path = require('path')
 const HTMLPlugin = require('html-webpack-plugin')
 const webpack = require('webpack')
+// const ExtractPlugin = require('extract-text-webpack-plugin')
 
 const isDev = process.env.NODE_ENV === 'development'
 
@@ -18,6 +19,10 @@ const config = {
                 loader: 'vue-loader'
             },
             {
+                test: /\.jsx$/,
+                loader: 'babel-loader'
+            },
+            {
                 test: /\.css$/,
                 use: [
                     'style-loader',
@@ -29,6 +34,12 @@ const config = {
                 use:[
                     'style-loader',
                     'css-loader',
+                    {
+                        loader: 'postcss-loader',
+                        options: {
+                            sourceMap:true
+                        }
+                    },
                     'stylus-loader'
                 ]
             },
