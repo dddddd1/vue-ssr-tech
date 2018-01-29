@@ -5,7 +5,11 @@
 ```
 git clone git@github.com:dddddd1/vue-ssr-tech.git
 ```
-进入项目目录，运行
+进入项目目录
+```
+cd vue-ssr-tech
+```
+运行
 ```
 npm install
 ```
