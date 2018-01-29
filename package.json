@@ -10,11 +10,28 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.1",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.3",
     "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-loader": "^2.0.10",
+    "style-loader": "^0.20.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "url-loader": "^0.6.2",
     "vue": "^2.5.13",
     "vue-loader": "^13.7.0",
     "vue-template-compiler": "^2.5.13",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "devDependencies": {},
   "repository": {
@@ -25,5 +42,5 @@
     "url": "https://github.com/dddddd1/vue-ssr-tech/issues"
   },
   "homepage": "https://github.com/dddddd1/vue-ssr-tech#readme",
-  "description": ""
+  "description": "``git clone git@github.com:dddddd1/vue-ssr-tech.git\r cd vue-ssr-tech\r npm install\r npm run dev``"
 }
