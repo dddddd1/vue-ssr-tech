@@ -18,3 +18,5 @@ npm install
 npm run dev
 ```
 开始开发项目
+
+演示地址:http://dbdbdbdb.gitee.io/vue-ssr-tech/dist/
